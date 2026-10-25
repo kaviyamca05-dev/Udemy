@@ -126,3 +126,57 @@ body {
     display: flex;
     justify-content: space-between;
 }
+
+
+/* Course Card Hover Effect */
+.course_card {
+    width: 250px;
+    margin-top: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.course_card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Category Hover Effect */
+.catagories p {
+    padding: 5px;
+    background-color: purple;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.catagories p:hover {
+    background-color: #6a0dad;
+}
+
+/* Search Box Focus Effect */
+.navbar__s2 {
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 25px;
+    width: 60%;
+    display: flex;
+    gap: 10px;
+    transition: box-shadow 0.3s ease;
+}
+
+.navbar__s2:focus-within {
+    box-shadow: 0 0 8px rgba(128, 0, 128, 0.5);
+}
+
+/* Footer Text Hover */
+.footer_one p {
+    margin: 20px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.footer_one p:hover {
+    color: #d8b4fe;
+}
